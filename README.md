@@ -16,8 +16,8 @@ From the test data set, we obtained an accuracy score of around 0.856 in popular
 
 ## Authors
 
-Hong Van Pham
-[Email](vanhongpham01@gmail.com), [Linkedin](https://www.linkedin.com/in/vanhpham/), [Facebook](https://www.facebook.com/hiiamvan)
+Hong Van Pham :
+[Email](mailto:vanhongpham01@gmail.com), [Linkedin](https://www.linkedin.com/in/vanhpham/), [Facebook](https://www.facebook.com/hiiamvan)
 
 
 ## Acknowledgments
