@@ -6,7 +6,7 @@ Spotify Popularity index prediction algorithm using MFCCs analysis. For more det
 Mel-frequency cepstral coefficients (MFCCs) analysis is a technique widely used for extracting information from audio segments. Recently, it has been applied to music information retrieval, most notably for music genre and feature classifications. This project aims to find a correlation between a track's MFCCs and its popularity, with a focus on the Vietnamese music market.
 
 ## Data 
-I used Spotipy to retrieve information (name, artist, popularity) of 500 Vietnamese songs and used youtube-dl to download the respective mp3 files. The songs information is in [this file](tbu).
+I used Spotipy to retrieve information (name, artist, popularity) of 500 Vietnamese songs and used youtube-dl to download the respective mp3 files. The songs information is here (tbu).
 
 ## Methods
 I used librosa to calculate the 40 MFCCs for each song ([analysis/mp3/mfcc.py](https://github.com/malajvan/MFCC/blob/main/analysis/mp3/mfcc.py)) and use sklearn's KNeighborsClassifier to predict song's popularity into four bins: low, med, medhi, high ([analysis/mp3/prediction_train.py](https://github.com/malajvan/MFCC/blob/main/analysis/mp3/prediction_train.py)).
